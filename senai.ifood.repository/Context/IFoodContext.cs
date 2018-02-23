@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 using senai.ifood.domain;
 using senai.ifood.domain.Entities;
@@ -15,6 +16,12 @@ namespace senai.ifood.repository.Context
         public DbSet<ClienteDomain> Clientes { get; set; }
         public DbSet<EspecialidadeDomain> Especialidades { get; set; }
         public DbSet<PermissaoDomain> Peermissoes { get; set; }
+
+        internal void SaveChange()
+        {
+            throw new NotImplementedException();
+        }
+
         public DbSet<ProdutoRestauranteDomain> ProdutosRestaurantes { get; set; }
         public DbSet<UsuarioPermissaoDomain> UsuariosPermissoes { get; set; }
 
