@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using.System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace senai.ifood.domain.Entities
 {
@@ -14,7 +14,7 @@ namespace senai.ifood.domain.Entities
         public string Responsavel { get; set; }
 
         [Required]
-        [StringLenght(150)]
+        [StringLength(150)]
         public string Site { get; set; }
 
         [Required]

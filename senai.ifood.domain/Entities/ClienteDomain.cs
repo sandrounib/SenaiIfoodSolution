@@ -6,11 +6,11 @@ namespace senai.ifood.domain.Entities
     public class ClienteDomain : BaseDomain
     {        
         [Required] 
-        [StringLenght(100)]               
+        [StringLength(100)]               
         public string  Nome { get; set; }  
         
         [Required]
-        [Datatype(DataType.DateTime)]
+        [DataType(DataType.DateTime)]
         public DateTime DataNascimento { get; set; }  
         
         [Required] 

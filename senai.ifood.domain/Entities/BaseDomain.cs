@@ -7,7 +7,7 @@ namespace senai.ifood.domain.Entities
     public abstract class BaseDomain
     {
         [Key]
-        [DatabaseGenerated[DatabaseGeneratedOption.Identiy]]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id  { get; set; }
 
         [Required]

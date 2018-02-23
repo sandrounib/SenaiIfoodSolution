@@ -1,12 +1,12 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using Syste.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace senai.ifood.domain.Entities
 {
     public class ProdutoRestauranteDomain : BaseDomain
     {        
         [Required]
-        [StringLenght(100)]
+        [StringLength(100)]
         public string Nome { get; set; }
 
         [Required]
@@ -17,7 +17,7 @@ namespace senai.ifood.domain.Entities
         public Boolean Ativo { get; set; }
 
         [Required]
-        [DateType(DataType.Currency)]
+        [DataType(DataType.Currency)]
         public decimal Valor { get; set; }
             
 

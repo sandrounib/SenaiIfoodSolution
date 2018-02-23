@@ -1,3 +1,8 @@
 C:\Users\08929532845\Desktop\backend\senai.ifood.solution\senai.ifood.domain\obj\Debug\netstandard2.0\senai.ifood.domain.csproj.CoreCompileInputs.cache
 C:\Users\08929532845\Desktop\backend\senai.ifood.solution\senai.ifood.domain\obj\Debug\netstandard2.0\senai.ifood.domain.AssemblyInfoInputs.cache
 C:\Users\08929532845\Desktop\backend\senai.ifood.solution\senai.ifood.domain\obj\Debug\netstandard2.0\senai.ifood.domain.AssemblyInfo.cs
+C:\Users\08929532845\Desktop\backend\senai.ifood.solution\Senai.Ifood.Domain\bin\Debug\netstandard2.0\Senai.Ifood.Domain.deps.json
+C:\Users\08929532845\Desktop\backend\senai.ifood.solution\Senai.Ifood.Domain\bin\Debug\netstandard2.0\Senai.Ifood.Domain.dll
+C:\Users\08929532845\Desktop\backend\senai.ifood.solution\Senai.Ifood.Domain\bin\Debug\netstandard2.0\Senai.Ifood.Domain.pdb
+C:\Users\08929532845\Desktop\backend\senai.ifood.solution\Senai.Ifood.Domain\obj\Debug\netstandard2.0\Senai.Ifood.Domain.dll
+C:\Users\08929532845\Desktop\backend\senai.ifood.solution\Senai.Ifood.Domain\obj\Debug\netstandard2.0\Senai.Ifood.Domain.pdb
