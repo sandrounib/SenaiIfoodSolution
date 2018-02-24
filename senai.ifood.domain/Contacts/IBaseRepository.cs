@@ -5,9 +5,7 @@ namespace senai.ifood.domain.Contacts
     public interface IBaseRepository<T> where T : class
     {
 
-        IEnumerable<T> Listar(string[] includes = null);
-
-        IEnumerable<T> Listar();
+        IEnumerable<T> Listar(string[] includes = null);       
 
         int Atualizar(T dados);
 

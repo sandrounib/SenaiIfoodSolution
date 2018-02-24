@@ -101,5 +101,10 @@ namespace senai.ifood.repository.Repositories
             }
             throw new System.NotImplementedException();
         }
+
+        public IEnumerable<T> Listar()
+        {
+            throw new NotImplementedException();
+        }      
     }
 }
