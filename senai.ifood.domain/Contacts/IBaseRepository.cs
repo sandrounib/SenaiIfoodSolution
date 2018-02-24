@@ -5,6 +5,8 @@ namespace senai.ifood.domain.Contacts
     public interface IBaseRepository<T> where T : class
     {
 
+        IEnumerable<T> Listar(string[] includes = null);
+
         IEnumerable<T> Listar();
 
         int Atualizar(T dados);
@@ -13,7 +15,7 @@ namespace senai.ifood.domain.Contacts
 
         int Deletar(T dados);
 
-        T BuscarPorId(int id);       
+        T BuscarPorId(int id, string[] includes = null);       
          
     }
 }
